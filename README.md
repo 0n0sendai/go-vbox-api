@@ -2,7 +2,7 @@
 
 `go-vbox-api` is a Go module designed to interact with the VirtualBox SOAP API by making calls to the `vboxwebsrv` service. This module provides an interface for managing VirtualBox VMs programmatically, allowing you to create, configure, and control VMs directly from your Go applications.
 
-SOAP glue code generated using gowsdl[https://github.com/hooklift/gowsdl] 
+SOAP glue code generated using [gowsdl](https://github.com/hooklift/gowsdl) 
 
 ## Features
 
@@ -23,4 +23,4 @@ SOAP glue code generated using gowsdl[https://github.com/hooklift/gowsdl]
 To install the `go-vbox-api` module, use the following command:
 
 ```sh
-go install -u github.com/gentlemanloser/go-vbox-api
+go install -u github.com/0n0sendai/go-vbox-api

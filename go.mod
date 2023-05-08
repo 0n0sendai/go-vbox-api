@@ -1,4 +1,4 @@
-module github.com/gentlemenloser/go-vbox-api
+module github.com/0n0sendai/go-vbox-api
 
 go 1.20
 

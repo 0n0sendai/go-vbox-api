@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/gentlemenloser/go-vbox-api/vbox"
+	"github.com/0n0sendai/go-vbox-api/vbox"
 	"github.com/hooklift/gowsdl/soap"
 )
 
