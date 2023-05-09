@@ -5,8 +5,9 @@ package vbox
 import (
 	"context"
 	"encoding/xml"
-	"github.com/hooklift/gowsdl/soap"
 	"time"
+
+	"github.com/0n0sendai/go-vbox-api/soap"
 )
 
 // against "unused imports"

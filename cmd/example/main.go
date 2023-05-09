@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/0n0sendai/go-vbox-api/soap"
 	"github.com/0n0sendai/go-vbox-api/vbox"
-	"github.com/hooklift/gowsdl/soap"
 )
 
 func logon(service vbox.VboxPortType, user string, pass string) (string, error) {
