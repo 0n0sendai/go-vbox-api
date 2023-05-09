@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"github.com/0n0sendai/go-vbox-api/vbox"
 	"github.com/hooklift/gowsdl/soap"
@@ -31,8 +32,8 @@ func logoff(service vbox.VboxPortType, session string) error {
 
 func main() {
 	url := "http://localhost:18083/"
-	user := "seb"
-	pass := "default80s1"
+	user := os.Getenv("VBOX_USER")
+	pass := os.Getenv("VBOX_PASS")
 
 	var session string = ""
 
